@@ -1,6 +1,8 @@
 # Chess: OCaml Edition 
 <i> Final Project for CS 3110 - Functional Programming </i>
 
+Made by: Yanlam Ko, Conner Swenberg, Mitchell Lin.
+
 <img src="screenshots/Screen Shot 2019-12-12 at 9.28.42 PM.png" height="250"> <img src="screenshots/Screen Shot 2019-12-12 at 9.28.52 PM.png" height="250">
 
 ## Instructions
