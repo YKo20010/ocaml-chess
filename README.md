@@ -20,6 +20,7 @@ Chess: OCaml Edition (Final Project for CS 3110 - Functional Programming)
 `start game` -  begin chess game <br>
 `move a 7 a 6` - attempt to move piece at `(a, 7)` to `(a, 6)` <br>
 `castle a 8 e 8` - attempt to castle pieces at `(a, 8)` and `(e, 8)` <br>
+`make knight` - promote a pawn to a knight <br>
 `help` - see a hint <br>
 `quit` - end the game <br>
 
