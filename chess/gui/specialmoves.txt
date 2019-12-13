@@ -1,0 +1,24 @@
+  ╔══════════════════════════════════════════════════════════════════════════════════╗
+  ║                                                                                  ║
+  ║    « BACK                         Instructions                                   ║
+  ║                                                                                  ║
+  ╠══════════════════════════════════════════════════════════════════════════════════╣
+  ║                                                                                  ║
+  ║      Special moves:                                                              ║
+  ║      En Passant: pawn can capture opposing pawn next to it by moving             ║
+  ║                  diagonally if such opposing pawn has just moved forwards        ║
+  ║                  2 units as its first move, and would have been in the           ║
+  ║                  diagonal spot of pawn. Uses move command.                       ║
+  ║                  - move e 4 d 3                                                  ║
+  ║                                                                                  ║
+  ║      Castling:   rook and king can flip sides and move to the middle of each     ║
+  ║                  other as both of their first moves if no pieces exist in        ║
+  ║                  between them.                                                   ║
+  ║                  - castle e 8 h 8                                                ║
+  ║                                                                                  ║
+  ║      Promoting:  if a pawn has reached the opposite end of the board, a          ║
+  ║                  player can choose to promote it to a Queen, Knight, Rook,       ║
+  ║                  or Bishop.                                                      ║
+  ║                  - make queen                                                    ║
+  ║                                                                                  ║
+  ╚══════════════════════════════════════════════════════════════════════════════════╝

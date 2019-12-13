@@ -1,0 +1,68 @@
+### Starting build.
+# Target: main.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:main.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules main.mli > main.mli.depends # cached
+# Target: main.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:main.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o main.cmi main.mli # cached
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:ml, file:main.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules main.ml > main.ml.depends # cached
+# Target: command.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:command.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules command.mli > command.mli.depends # cached
+# Target: command.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:command.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o command.cmi command.mli # cached
+# Target: gui.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:gui.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules gui.mli > gui.mli.depends # cached
+# Target: state.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:state.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules state.mli > state.mli.depends # cached
+# Target: board.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:board.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules board.mli > board.mli.depends # cached
+# Target: piece.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:piece.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules piece.mli > piece.mli.depends # cached
+# Target: piece.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:piece.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o piece.cmi piece.mli # cached
+# Target: board.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:board.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o board.cmi board.mli # cached
+# Target: state.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:state.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o state.cmi state.mli # cached
+# Target: gui.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:gui.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o gui.cmi gui.mli # cached
+# Target: translate.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:translate.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules translate.mli > translate.mli.depends # cached
+# Target: translate.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:translate.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o translate.cmi translate.mli # cached
+# Target: main.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o main.cmo main.ml # cached
+# Target: command.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), coverage, extension:ml, file:command.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules command.ml > command.ml.depends # cached
+# Target: command.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, coverage, extension:cmo, extension:ml, file:command.cmo, file:command.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o command.cmo command.ml # cached
+# Target: gui.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:ml, file:gui.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules gui.ml > gui.ml.depends # cached
+# Target: gui.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:cmo, extension:ml, file:gui.cmo, file:gui.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o gui.cmo gui.ml # cached
+# Target: piece.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), coverage, extension:ml, file:piece.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules piece.ml > piece.ml.depends # cached
+# Target: piece.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, coverage, extension:cmo, extension:ml, file:piece.cmo, file:piece.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o piece.cmo piece.ml # cached
+# Target: state.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), coverage, extension:ml, file:state.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules state.ml > state.ml.depends # cached
+# Target: move.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:mli, file:move.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules move.mli > move.mli.depends # cached
+# Target: move.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:mli, file:move.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o move.cmi move.mli # cached
+# Target: state.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, coverage, extension:cmo, extension:ml, file:state.cmo, file:state.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o state.cmo state.ml # cached
+# Target: translate.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), extension:ml, file:translate.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules translate.ml > translate.ml.depends # cached
+# Target: translate.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, extension:cmo, extension:ml, file:translate.cmo, file:translate.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o translate.cmo translate.ml # cached
+# Target: board.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), coverage, extension:ml, file:board.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules board.ml > board.ml.depends # cached
+# Target: board.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, coverage, extension:cmo, extension:ml, file:board.cmo, file:board.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o board.cmo board.ml # cached
+# Target: move.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), coverage, extension:ml, file:move.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package ANSITerminal -package str -package qcheck -modules move.ml > move.ml.depends # cached
+# Target: move.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, compile, coverage, extension:cmo, extension:ml, file:move.cmo, file:move.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package ANSITerminal -package str -package qcheck -o move.cmo move.ml # cached
+# Target: main.byte, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -package unix -package oUnit -package ANSITerminal -package str -package qcheck command.cmo piece.cmo board.cmo move.cmo state.cmo translate.cmo gui.cmo main.cmo -o main.byte # cached
+# Compilation successful.

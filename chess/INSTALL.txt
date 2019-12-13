@@ -1,0 +1,14 @@
+Run the following commands: 
+make build - build the directory
+make play - play the game
+	start 300: begin chess game with 300 seconds per player
+		move a 7 a 6: attempt to move piece at (a,7) to (a,6)
+		castle a 8 e 8: attempt to castle pieces at (a,8) and (e,8)
+		help: see a hint
+		quit: end game
+	view instructions: see rules for game
+		next: view next page of instructions
+		back: view previous page of instructions
+make docs - check documentation
+make test - check tests
+open testChess.pdf - view sample manual tests we used in the game

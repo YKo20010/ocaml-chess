@@ -1,0 +1,24 @@
+  ╔══════════════════════════════════════════════════════════════════════════════════╗
+  ║                                                                                  ║
+  ║    « BACK                         Instructions                         NEXT »    ║
+  ║                                                                                  ║
+  ╠══════════════════════════════════════════════════════════════════════════════════╣
+  ║                                                                                  ║
+  ║      Valid commands:                                                             ║
+  ║      NOTE: Commands are not case sensitive.                                      ║
+  ║                                                                                  ║
+  ║      MOVE: attempts to move a piece from the first position defined,             ║
+  ║            to the second.                                                        ║
+  ║            - "move a 7 a 6"                                                      ║
+  ║      QUIT: ends the game                                                         ║
+  ║            - "quit"                                                              ║
+  ║                                                                                  ║
+  ║      Valid moves by rank:                                                        ║
+  ║      PAWN: Moves forwards one step, or diagonally one step to capture.           ║
+  ║      KNIGHT: Moves in a L shape with a 3 : 1 step ratio. Can jump over pieces.   ║
+  ║      BISHOP: Moves diagonally.                                                   ║
+  ║      ROOK: Moves horizontally or vertically.                                     ║
+  ║      QUEEN: Moves horizontally, vertically, or diagonally.                       ║
+  ║      KING: Moves horizontally, vertically, or diagonally one step.               ║
+  ║                                                                                  ║
+  ╚══════════════════════════════════════════════════════════════════════════════════╝

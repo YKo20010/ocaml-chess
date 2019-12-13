@@ -1,0 +1,3 @@
+<{board,command,move,piece,state}.ml>: coverage
+<test.{byte,native}>: coverage
+true: package(unix), package(oUnit), package(ANSITerminal), package(str), package(qcheck)
