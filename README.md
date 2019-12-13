@@ -5,11 +5,13 @@ Chess: OCaml Edition (Final Project for CS 3110 - Functional Programming)
 
 ## Instructions
 
-### General:
+### General: 
+(inside the chess directory)
 
 `make build` - build the directory <br>
 `make docs` - check documentation <br>
 `make test` - check tests <br>
+`open testChess.pdf` - view sample manual tests <br>
 
 ### Playing the Game:
 
