@@ -3,7 +3,7 @@
 
 Made by: Yanlam Ko, Conner Swenberg, Mitchell Lin.
 
-### See original here (Cornell students only): https://github.coecis.cornell.edu/yk396/ms
+### See original here (Cornell login needed): https://github.coecis.cornell.edu/yk396/ms
 
 <img src="screenshots/Screen Shot 2019-12-12 at 9.28.42 PM.png" height="250"> <img src="screenshots/Screen Shot 2019-12-12 at 9.28.52 PM.png" height="250">
 
